@@ -1,0 +1,98 @@
+/* цвет заголовков #212121 */
+/* альтернативный цвет заголовков #FFFFFF */
+/* цвет текста  #757575*/
+/* белый #FFFFFF*/
+/* акцент  #2196F3*/
+/* основной цвет фона  #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* цвет фона подвала #2F303A */
+/* цвет ссылок соцсетей #AFB1B8 */
+/* цвет кнопки #2196F3 */
+
+:root {
+  --title-text-color: #212121;
+  --primaty-text-color: #757575;
+  --primaty-link-color: #212121;
+  --secondary-link-color: #2196F3;
+  --secondary-title-color: #ffffff;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #F5F4FA;
+  --bg-secondary-title: rgba(47, 48, 58, 0.8);
+  --bg-batton-color: #2196F3;
+  --prime-batton-title: #FFFFFF;
+  --footer-bg-color: #2F303A;
+  --footer-text-color: #ffffff;
+}
+
+.page {
+  background-color: var(--primary-beckgound-color);
+  color: var(--primaty-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* sait-nav */
+.logo {
+  color: var(--secondary-link-color);
+}
+
+.site-nav .link {
+  color: var(--primaty-link-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link:active{
+  color: var(--secondary-link-color);
+}
+
+.auth-nav .link {
+  color: var(--primaty-link-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus,
+.auth-nav .link:active{
+  color: var(--secondary-link-color);
+}
+
+/* hero */
+.hero-title {
+  color: var(--secondary-title-color);
+}
+
+.batton {
+  background: var(--bg-batton-color);
+  color: var(--prime-batton-title);
+
+}
+
+/* Наши плюсы */
+.section-title {
+  color: var(--title-text-);
+}
+
+/* Чем мы занимаемся */
+.title-secondary {
+  color: var(--secondary-title-color);
+  background: var(--bg-secondary-title);
+}
+
+/* Наша команда */
+.title-primery {
+  color: var(--title-text-color);
+}
+
+/* Галерея Портфолио */
+
+/*Футер*/
+.footer {
+  color: var(--footer-text-color);
+  background: var(--footer-bg-color);
+}
