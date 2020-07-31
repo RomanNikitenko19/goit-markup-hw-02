@@ -22,11 +22,18 @@
   --prime-batton-title: #FFFFFF;
   --footer-bg-color: #2F303A;
   --footer-text-color: #ffffff;
+  --footer-secondary-text-color: rgba(255, 255, 255, 0.6);
 }
 
 .page {
   background-color: var(--primary-beckgound-color);
   color: var(--primaty-text-color);
+
+  font-family: Roboto; sans-serif;
+  letter-spacing: 0.03em;
+
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .list {
@@ -40,10 +47,29 @@
 /* sait-nav */
 .logo {
   color: var(--secondary-link-color);
+
+  font-family: Raleway; cursive;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-secondary {
+  color: var(--title-text-color);
+}
+
+.alternative {
+  color: var(--secondary-title-color);
 }
 
 .site-nav .link {
   color: var(--primaty-link-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-Height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -54,6 +80,11 @@
 
 .auth-nav .link {
   color: var(--primaty-link-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-Height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .auth-nav .link:hover,
@@ -65,34 +96,110 @@
 /* hero */
 .hero-title {
   color: var(--secondary-title-color);
-}
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  }
 
 .batton {
   background: var(--bg-batton-color);
   color: var(--prime-batton-title);
 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center; 
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Наши плюсы */
+.benefits .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14x;
+  text-transform: uppercase;
+}
+
+.benefits .text {
+font-size: 14px;
+line-height: 1.17px;
+}
+
+/* H2 */
 .section-title {
   color: var(--title-text-);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 /* Чем мы занимаемся */
 .title-secondary {
   color: var(--secondary-title-color);
   background: var(--bg-secondary-title);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+
 }
 
 /* Наша команда */
+.ourteam {
+  background: var(--secondary-background-color);
+}
 .title-primery {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18x;
+  text-align: center;
+}
+
+.ourteam .text {
+  font-size: 16px;
+  line-height: 1.18px;
+  text-align: center;
 }
 
 /* Галерея Портфолио */
+.gallery .title-primery {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.gallery .text {
+  font-size: 16px;
+  line-height: 1.87;
+}
 
 /*Футер*/
 .footer {
   color: var(--footer-text-color);
   background: var(--footer-bg-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.superscription {
+  font-size: 14px;
+  line-height: 1.71px;
+}
+
+.superscription .link {
+  color: var(--footer-secondary-text-colo);
 }
