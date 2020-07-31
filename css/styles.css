@@ -48,7 +48,7 @@
 
 .site-nav .link:hover,
 .site-nav .link:focus,
-.site-nav .link:active{
+.site-nav .link.current{
   color: var(--secondary-link-color);
 }
 
@@ -58,7 +58,7 @@
 
 .auth-nav .link:hover,
 .auth-nav .link:focus,
-.auth-nav .link:active{
+.auth-nav .link.current{
   color: var(--secondary-link-color);
 }
 
