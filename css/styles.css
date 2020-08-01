@@ -48,7 +48,7 @@
 .logo {
   color: var(--secondary-link-color);
 
-  font-family: Raleway; cursive;
+  font-family: Raleway; sans-serif;
 
   font-weight: 700;
   font-size: 26px;
@@ -190,16 +190,21 @@ line-height: 1.17px;
 .footer {
   color: var(--footer-text-color);
   background: var(--footer-bg-color);
+
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
 }
 
-.superscription {
+.footer .text {
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71px;
+  
 }
 
-.superscription .link {
+.address-link {
   color: var(--footer-secondary-text-colo);
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
