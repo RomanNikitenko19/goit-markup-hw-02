@@ -18,8 +18,8 @@
   --primary-background-color: #ffffff;
   --secondary-background-color: #f5f4fa;
   --bg-secondary-title: rgba(47, 48, 58, 0.8);
-  --bg-batton-color: #2196f3;
-  --prime-batton-title: #ffffff;
+  --bg-button-color: #2196f3;
+  --prime-button-title: #ffffff;
   --footer-bg-color: #2f303a;
   --footer-text-color: #ffffff;
   --footer-secondary-text-color: rgba(255, 255, 255, 0.6);
@@ -105,9 +105,9 @@
   text-transform: uppercase;
 }
 
-.batton {
-  background: var(--bg-batton-color);
-  color: var(--prime-batton-title);
+.button {
+  background: var(--bg-button-color);
+  color: var(--prime-button-title);
 
   font-weight: 700;
   font-size: 16px;
@@ -173,20 +173,23 @@
 }
 
 /* Галерея Портфолио */
-.gallery .batton {
-  color: var(--primary-background-color);
-  background: var(--bg-batton-color);
+.gallery .button {
+  color: var(--title-text-color);
+  background: var(--secondary-background-color);
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 62;
+  line-height: 1,62;
   text-align: center;
+  letter-spacing: 0.03em;
+
 }
 
-.gallery .batton:hover,
-.gallery .batton:focus {
-  color: var(--primaty-link-color);
-  background-color: var(--secondary-background-color);
+.gallery .button:hover:hover,
+.gallery .button:focus:focus {
+  color: var(--prime-button-title);
+  background-color: var(--bg-button-color);
+
 }
 
 .gallery .title-primery {
